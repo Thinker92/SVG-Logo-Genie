@@ -7,6 +7,7 @@
   - [Author](#author)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Walkthrough](#walkthrough)
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
@@ -28,6 +29,8 @@ To install necessary dependencies, run the following command(s):
 ## Usage
 Start that application by running "node index.js" and follow the on-screen prompts
 
+## Walkthrough
+[Video Walkthrough](https://drive.google.com/file/d/19rIC-LQJCP-K8n2Q4cDciL8cF0Jaa4GT/view)
 
 ## License
 
