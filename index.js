@@ -1,6 +1,7 @@
 import {Circle, Square, Triangle} from './lib/shapes.js'
 import { getUserInput } from './lib/input.js';
 import Text from './lib/text.js';
+import { writeToFile} from './lib/writeToFile.js'
 
 getUserInput()
     .then(answers => {
@@ -24,4 +25,5 @@ getUserInput()
                     </svg>`;
         
         console.log(svg);
+        writeToFile(`./example/logo_${answers.text}.svg`,svg);
     })
