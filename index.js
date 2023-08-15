@@ -18,10 +18,16 @@ getUserInput()
                 break;
         }
         const text = new Text(answers.text, answers.textColor);
+        let textRender;
+        if (shape instanceof Circle){
+            textRender = text.renderForCircle();
+        } else {
+            textRender = text.render();
+        }
 
-        const svg = `<svg height="100" width="100">
+        const svg = `<svg height="200" width="300">
                         ${shape.render()}
-                        ${text.render()}
+                        ${textRender}
                     </svg>`;
         
         console.log(svg);
