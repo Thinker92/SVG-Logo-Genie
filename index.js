@@ -1,7 +1,7 @@
-import {Circle, Square, Triangle} from './lib/shapes.js'
-import { getUserInput } from './lib/input.js';
-import Text from './lib/text.js';
-import { writeToFile} from './lib/writeToFile.js'
+const { Circle, Square, Triangle } = require('./lib/shapes.js');
+const getUserInput = require('./lib/input.js');
+const Text = require('./lib/text.js');
+const writeToFile = require('./lib/writeToFile.js');
 
 getUserInput()
     .then(answers => {
